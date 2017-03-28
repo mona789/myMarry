@@ -1,0 +1,53 @@
+/* 
+* @Author: wangweiming
+* @Date:   2015-10-13 15:48:16
+* @Last Modified by:   zty
+* @Last Modified time: 2016-01-13 14:23:01
+*/
+/*初始化*/
+html{ width:100%;overflow-x:hidden}
+*{ font-size:"微软雅黑"}
+body,ul,li,ol,p,h1,h2,h3,h4,h5,h6,form,input,dl,dt,dd{ margin:0; padding:0;}
+body{ font-size:12px; font-family:"微软雅黑"; color:#fff; line-height:1.7; overflow-x: hidden;}
+a{ text-decoration:none; color: #fff;}
+input:focus{ outline:none;}
+ul{ list-style:none;}
+img{ border:none;}
+textarea{ resize:none;}
+button:hover{ cursor:pointer;}
+.clear{ clear:both; overflow:hidden; height:0;}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+.fl{ float:left;}
+.fr{ float:right;}
+.abs{ position:absolute;}
+.rel{ position:relative;}
+.content{width: 90%;margin: 0 auto;}
+.em{text-indent: 2em;}
+.tac{text-align: center;}
+.blod{font-weight: 700;}
+/*初始化结束*/
+#pic { position:relative;text-align: center;	margin-bottom: 5px;}
+#pic #prev{ position:absolute; top:50%; left:0px; font-size:50px;font-weight:bold; color:#fff}
+#pic #next{ position:absolute; top:50%; right:0px; font-size:50px;font-weight:bold; color:#fff}
+#pic #prev_none{ position:absolute; top:50%; left:0px; color:#2c2b2b; font-size:50px;font-weight:bold}
+#pic #next_none{ position:absolute; top:50%; right:0px; color:#2c2b2b; font-size:50px;font-weight:bold}
+
+.shangxia {
+	margin:50px 0;
+}
+.shangxia a{
+	color:#fff;
+}
+.shangxia a:hover{
+	color:#2c2b2b; 
+	text-decoration: underline;
+}
